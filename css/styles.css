@@ -1,14 +1,17 @@
 body{
 	margin: 0px;
-	background-image: url('../assets/different.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: 'Nanum Pen Script', cursive;
+	font-family: 'Permanent Marker', Cursive;
+	background-color: #d4f8ff;
 }
 
 h1{
-	padding: 20px;
-	font-size: 45px;
+	padding: 0px;
+	font-size: 47px;
+	margin: 0px;
+}
+
+.done{
+	color: red;
 }
 
 #container{
@@ -27,9 +30,9 @@ h1{
 }
 
 .item{
+	font-family: 'Overpass', Sans-Serif;
 	max-width: 80%;
 	height: auto;
-	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,5 +41,5 @@ h1{
 	padding: 10px;
 	flex-wrap: wrap;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 }
